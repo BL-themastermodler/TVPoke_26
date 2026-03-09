@@ -1,7 +1,7 @@
-from TVPoke.BaseClasses.PokeTypes import Psychic
+from TVPoke.BaseClasses.PokeTypes import Dark
 from TVPoke.BaseClasses.Move import Move
 
-class Espeon(Psychic):
+class Umbreon(Dark):
     def __init__(self):
         moves = [
             Move("Quick attack", "NORMAL", 40),
